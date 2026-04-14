@@ -1,0 +1,10 @@
+.countriess{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.country-visited{
+    background-color: green;
+    color: white;
+
+}
