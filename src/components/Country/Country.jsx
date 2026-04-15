@@ -3,7 +3,7 @@ import './country.css'
 
 
 
-const Country = ({ name, handleClickBtn }) => {
+const Country = ({ name, handleClickBtn,handleVisitedFlags }) => {
     
 
     const [visited, setVisited] = useState(false);
@@ -24,6 +24,7 @@ const Country = ({ name, handleClickBtn }) => {
             <button onClick={handleClick}>
                 {visited ? "Visited" : "Not Visited"};
             </button>
+            <button onClick={()=>{handleVisitedFlags(name.flags.flags.png)}}>Add Visited Flag</button>
         </div>
     );
 };

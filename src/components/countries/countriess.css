@@ -8,3 +8,13 @@
     color: white;
 
 }
+
+.flags-container img{
+    width: 100px;
+    margin: 10px;
+    height: 70px;
+}
+.flags-container{
+    border: 3px solid gold;
+    border-radius: 20px;
+}
